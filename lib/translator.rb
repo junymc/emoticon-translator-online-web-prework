@@ -1,11 +1,15 @@
 require "yaml"# require modules here
-# emoticon_file =
+# emoticon_file = {
 # angel:
 #   - "O:)"
 #   - "☜(⌒▽⌒)☞"
 # angry:
 #   - ">:("
 #   - "ヽ(ｏ`皿′ｏ)ﾉ"
+# }
+
+# result = {"get_meaning" => {"☜(⌒▽⌒)☞":angel}, "get_emoticon" => {"O:)":"☜(⌒▽⌒)☞"}}
+
 def load_library(emoticon_file)
     library = YAML.load_file(emoticon_file)
     result = {"get_meaning" => {}, "get_emoticon" => {}}
