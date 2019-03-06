@@ -1,5 +1,5 @@
-require "yaml"# require modules here
 require 'fry'
+require "yaml"# require modules here
 
 def load_library(emoticon_path)
     library = YAML.load_file(emoticon_path)
