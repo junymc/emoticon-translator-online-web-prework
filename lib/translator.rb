@@ -1,7 +1,7 @@
 require "yaml"# require modules here
-# emoticon_file = 
+# emoticon_file =
 # angel:
-#   - "O:)"      
+#   - "O:)"
 #   - "☜(⌒▽⌒)☞"
 # angry:
 #   - ">:("
