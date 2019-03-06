@@ -25,8 +25,8 @@ def get_japanese_emoticon(emoticon_file, en_emoticon)
    if library["get_emoticon"].include? (en_emoticon)
      library["get_emoticon"][en_emoticon]
    end
-    
-  
+
+
 end
 
 def get_english_meaning
