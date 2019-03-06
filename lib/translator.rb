@@ -1,5 +1,5 @@
 require "yaml"# require modules here
-
+require 'fry'
 def load_library(emoticon_file)
   library = YAML.load_file(emoticon_file)
   result = {"get_meaning" => {}, "get_emoticon" => {}}
@@ -17,4 +17,4 @@ end
 
 def get_english_meaning
   # code goes here
-end
+end d
